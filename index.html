@@ -3,9 +3,86 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Formulario</title>
 </head>
 <body>
-    
+    <h1>Ejercicio de Formularios</h1>
+    <form action="">
+        <fieldset>
+            <legend>Indique sus preferencias por favor</legend>
+            <label for="fecha">Eliga una fecha: </label>
+            <input type="date" name="fecha" id="fecha">
+
+            <br><br>
+
+            <label for="fichero">Eliga una fichero: </label>
+            <input type="file" name="fichero" id="fichero">
+
+            <br><br>
+
+            <input type="radio" name="pc" id="amd">
+            <label for="pc">AMD</label>
+            <input type="radio" name="pc" id="inteli5">
+            <label for="pc">Intel i5</label>
+            <input type="radio" name="pc" id="inteli7">
+            <label for="pc">Intel i7</label>
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>Indique sus preferencias por favor</legend>
+            <input type="radio" name="area" id="math">
+            <label for="area">Matemáticas</label>
+            <input type="radio" name="area" id="history">
+            <label for="area">Historia</label>
+            <input type="radio" name="area" id="geography">
+            <label for="area">Geografía</label>
+            <input type="radio" name="area" id="spanish">
+            <label for="area">Lengua</label>
+
+            <br><br>
+
+            <label for="name">Nombre: </label>
+            <input type="text" name="name" id="name">  
+            <br><br>  
+            <label for="lastName">Apellidos: </label>
+            <input type="text" name="lastName" id="lastName">
+            <br><br>
+            <label for="dircc">Dirección: </label>
+            <input type="text" name="dircc" id="dircc">
+            <br><br>
+            <label for="color">Elija un color: </label>
+            <input type="color" name="color" id="color">
+            <br><br>
+            <textarea name="" id="comnt" cols="30" rows="5" placeholder="Utilice este cuadro para escriibir"></textarea>
+            <br>
+            <label for="fecha">Eliga una fecha: </label>
+            <input type="date" name="fecha" id="fecha">
+
+            <br><br>
+
+            <input list="idioma" name="idiom" id="idiom" value="Inglés">
+            <datalist id="idioma">
+                <option value="Español"></option>
+                <option value="Italiano"></option>
+                <option value="Aleman"></option>
+                <option value="Frances"></option>
+            </datalist>
+
+            <br><br>
+            <label for="hora">Elija una hora: </label>
+            <input type="time" name="hora" id="hora">
+
+            <br><br>
+
+            <label for="fichero">Eliga una fichero: </label>
+            <input type="file" name="fichero" id="fichero">
+
+            <br><br>
+            <input type="checkbox" name="genero" id="mujer">
+            <label for="leer">Mujer</label>
+            <input type="checkbox" name="genero" id="hombre">
+            <label for="cine">Hombre</label><br>
+        </fieldset>
+    </form>
 </body>
 </html>
